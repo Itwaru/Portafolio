@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Edward Godoy | Desarrollador Web</title>
+    <link rel="shortcut icon" href="img/title.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <div class="container">
+            <nav>
+                <img src="img/Logo.png" class="img-container" alt="">
+                <div class="nav_enlaces">
+                    <a href="#section_info"><img src="assets/sobre-mi.svg" class="img-enlaces" alt=""></a>
+                    <a href="#proyectos"><img src="assets/proyectos.svg" class="img-enlaces" alt=""></a>
+                    <a href="#contacto"><img src="assets/contacto.svg" class="img-enlaces" alt=""></a>
+                </div>
+                
+            </nav>
+        </div>
+
+    </header>
+
+    <button class="panel-btn hamburger hamburger--emphatic" type="button"
+        aria-label="Menu" aria-controls="navigation">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+
+    <div class="panel">
+        <a class="panel_enlaces" href="#section_info">Sobre mi</a>
+        <a class="panel_enlaces" href="#proyectos">Mis proyectos</a>
+        <a class="panel_enlaces" href="#contacto">Contacto</a>
+    </div>
+
+    <section  class="section_hero">
+        <h1>Soy  Edward Godoy programador <span class="color-section" >Full Stack!</span> </h1>
+        <form action="https://www.youtube.com" target="block">
+            <button>Download CV <br><img src="assets/descarga.svg" alt=""></button>
+        </form>
+    </section>
+
+    <section class="fade_opacity" id="section_info">
+        <div class="section_img">
+            <img src="img/sobre-mi.png" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aliquam.</p>
+    </section>
+
+    <section class="fade_left" id="proyectos">
+        <div class="contenedor">
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/sobre-mi.png" class="img-card" alt="">
+                <a href="https://www.youtube.com/" class="link" target="blank" ><img src="assets/link.svg" alt="" srcset="" ></a>
+            </div>
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/sobre-mi.png" class="img-card" alt="">
+                <a href="https://www.youtube.com/" class="link" target="blank" ><img src="assets/link.svg" alt="" srcset="" ></a>
+            </div>
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/sobre-mi.png" class="img-card" alt="">
+                <a href="https://www.youtube.com/" class="link" target="blank" ><img src="assets/link.svg" alt="" srcset="" ></a>
+            </div>
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/sobre-mi.png" class="img-card" alt="">
+                <a href="https://www.youtube.com/" class="link" target="blank" ><img src="assets/link.svg" alt="" srcset="" ></a>
+            </div>
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/sobre-mi.png" class="img-card" alt="">
+                <a href="https://www.youtube.com/" class="link" target="blank" ><img src="assets/link.svg" alt="" srcset="" ></a>
+            </div>
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/sobre-mi.png" class="img-card" alt="">
+                <a href="https://www.youtube.com/" class="link" target="blank" ><img src="assets/link.svg" alt="" srcset="" ></a>
+            </div>
+        </div>
+        
+    </section>
+
+    
+<section class="fade_opacity" id="contacto">
+    <form id="form" class="contac_form" >
+        <legend>Contáctame</legend>
+        <input type="text" name="name" placeholder="Escribe tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required >
+        <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"  required >
+        <input type="text" name="subject" placeholder="Asunto a tratar" title="El Asunto es requerido" required >
+        <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios" pattern=" ^.{1,255}$" required ></textarea>
+        <input type="submit" id="submit" value="Enviar">
+    </form>
+    <p class="form_mensaje none">Mensaje Enviado</p>
+</section>
+
+<footer class="fade_up">
+    <div class="container">
+        <p>&copy; Edward Godoy 2022</p>
+    </div>
+</footer>
+
+
+    <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
