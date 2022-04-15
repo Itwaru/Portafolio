@@ -134,13 +134,14 @@ nav a {
     gap: 10em;
     background-color: rgba(0, 0, 0, 0.885);
     position: fixed;
-    transform: translate(0, -120%);
-    transition: transform 0.5s ease;
+    /* transform: translate(0, -120%); */
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.5s ease;
     z-index: 900;
 }
 
 .panel.is-active {
-    transform: translate(0, 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .panel_enlaces {
