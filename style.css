@@ -391,6 +391,7 @@ textarea {
     margin: auto;
     height: 32px;
     align-items: center;
+    font-size: 15px;
     
 }
 .none{
@@ -516,6 +517,7 @@ footer .container P {
     .form_mensaje{
         width: 45%;
         text-align: center;
+        font-size: 15px;
     }
 
 
