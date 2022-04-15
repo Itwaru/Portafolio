@@ -102,7 +102,7 @@ nav a {
 
 /* Panel */
 
-.panel-btn {
+/* .panel-btn {
     position: fixed;
     z-index: 999;
     bottom: 1vh;
@@ -116,13 +116,13 @@ nav a {
     align-items: center;
     background-color: #ffffff38;
     border: 1px solid rgb(22, 175, 180);
-}
+} */
 
-.panel-btn:hover {
+/* .panel-btn:hover {
     background-color: rgb(22, 175, 180);
-}
+} */
 
-.panel {
+/* .panel {
     width: 100%;
     top: 0;
     bottom: 0;
@@ -137,13 +137,13 @@ nav a {
     transform: translate(0, -120%);
     transition: transform 0.5s ease;
     z-index: 900;
-}
+} */
 
-.panel.is-active {
+/* .panel.is-active {
     transform: translate(0, 0);
-}
+} */
 
-.panel_enlaces {
+/* .panel_enlaces {
     color: #fff;
     text-decoration: none;
     margin-top: 70px;
@@ -152,12 +152,12 @@ nav a {
     border: 1px solid rgb(22, 175, 180);
     transition: .8s ease;
     background-color: #0000008f;
-}
+} */
 
-.panel_enlaces:hover {
+/* .panel_enlaces:hover {
     background-color: rgb(22, 175, 180);
     color: #000000;
-}
+} */
 
 .img-enlaces {
     width: inherit;
@@ -507,7 +507,7 @@ footer .container P {
     }
 
     #contacto {
-        height: 70vh;
+        height: 560px;
     }
 
     #submit {

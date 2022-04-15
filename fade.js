@@ -1,4 +1,4 @@
-/* export default function fade() {
+export default function fade() {
 
     window.addEventListener("scroll", function () {
 
@@ -31,4 +31,4 @@
 
 
 
-} */
+}
