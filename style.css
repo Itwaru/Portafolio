@@ -8,7 +8,8 @@
     scroll-behavior: smooth;
 }
 
-body {
+
+html{
     background-image: url(img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,15 +134,15 @@ nav a {
     align-items: center;
     gap: 10em;
     background-color: rgba(0, 0, 0, 0.885);
-    position: fixed;
-    /* transform: translate(0, -120%); */
+    position:fixed;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    transition: clip-path 0.5s ease;
     z-index: 900;
+    transition: clip-path 0.5s ease;
 }
 
 .panel.is-active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: clip-path 0.5s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
 }
 
 .panel_enlaces {
@@ -430,7 +431,6 @@ footer .container P {
 
 .fade_up {
     opacity: 0;
-    transform: translateY(100%);
     transition: all 2s ease;
 }
 
@@ -442,7 +442,6 @@ footer .container P {
 
 
 .aparece {
-    transform: translateX(0);
     clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     opacity: 1;
