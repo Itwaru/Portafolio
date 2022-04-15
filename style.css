@@ -386,7 +386,7 @@ textarea {
     border: 1px solid rgb(22, 175, 180) ;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.112);
-    width: 30%;
+    width: 20%;
     display: flex;
     margin: auto;
     height: 32px;
@@ -512,6 +512,10 @@ footer .container P {
 
     #submit {
         width: 50%;
+    }
+    .form_mensaje{
+        width: 45%;
+        text-align: center;
     }
 
 
