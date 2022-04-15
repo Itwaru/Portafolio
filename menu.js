@@ -1,4 +1,4 @@
-/* export default function hamburger(panelBtn,panel,link) {
+export default function hamburger(panelBtn,panel,link) {
 
     document.addEventListener("click", e => {
         if (e.target.matches(panelBtn) || e.target.matches(`${panelBtn} *`)) {
@@ -12,4 +12,4 @@
         }
     })
 
-} */
+}
