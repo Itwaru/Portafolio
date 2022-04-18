@@ -1,4 +1,4 @@
-export default function form() {
+/* export default function form() {
     document.addEventListener("submit", (e) => {
 
         e.preventDefault();
@@ -24,4 +24,4 @@ export default function form() {
                 $response.classList.add("none");
             }, 3000));
     })
-}
+} */
