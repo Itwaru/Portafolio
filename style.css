@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family:"Indie Flower";
 }
 
 
@@ -52,7 +53,6 @@ header {
 }
 
 
-
 nav {
     display: flex;
     align-items: center;
@@ -68,7 +68,6 @@ nav {
     transform-style: preserve-3d;
 
 }
-
 
 
 @keyframes girar {
@@ -194,22 +193,6 @@ nav a {
 
 }
 
-.section_hero button {
-    margin-top: 30px;
-    font-size: 1em;
-    padding: 10px;
-    border-radius: 10px;
-    color: white;
-    background-color: #0000008f;
-    margin: 10px;
-    border: 1px solid rgb(22, 175, 180);
-}
-
-.enlace-hero:hover {
-    background-color: rgba(255, 255, 255, 0.112);
-    font-weight: bold;
-    transform: scale(80%);
-}
 
 .enlace-hero{
     margin-top: 30px;
@@ -222,6 +205,11 @@ nav a {
     border: 1px solid rgb(22, 175, 180);
     text-decoration: none;
     width: 100px;
+}
+.enlace-hero:hover {
+    background-color: rgba(255, 255, 255, 0.112);
+    font-weight: bold;
+    transform: scale(80%);
 }
 
 .color-section {
