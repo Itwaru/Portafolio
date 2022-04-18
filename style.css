@@ -9,7 +9,7 @@
 }
 
 
-html{
+html {
     background-image: url(img/fondo.AVIF);
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,7 +121,15 @@ nav a {
 
 .panel-btn:hover {
     background-color: rgb(22, 175, 180);
+    transform: scale(80%);
 }
+
+.btn-img {
+    width: 70%;
+    height: 70%;
+
+}
+
 
 .panel {
     width: 100%;
@@ -134,7 +142,7 @@ nav a {
     align-items: center;
     gap: 10em;
     background-color: rgba(0, 0, 0, 0.885);
-    position:fixed;
+    position: fixed;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     z-index: 900;
     transition: clip-path 0.5s ease;
@@ -142,7 +150,7 @@ nav a {
 
 .panel.is-active {
     transition: clip-path 0.5s ease;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .panel_enlaces {
@@ -159,6 +167,7 @@ nav a {
 .panel_enlaces:hover {
     background-color: rgb(22, 175, 180);
     color: #000000;
+    transform: scale(80%);
 }
 
 .img-enlaces {
@@ -198,6 +207,7 @@ nav a {
 .section_hero button:hover {
     background-color: rgba(255, 255, 255, 0.112);
     font-weight: bold;
+    transform: scale(80%);
 }
 
 .color-section {
@@ -227,15 +237,40 @@ nav a {
     height: 500px;
 }
 
-#section_info p {
-    border: 1px solid rgb(22, 175, 180);
-    border-radius: 20px;
-    width: 500px;
-    height: 500px;
+
+#section_info .section_lenguajes {
+    width: 200px;
+    height: 200px;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
 }
+
+
+#section_info .section-img {
+    width: 50px;
+    height: 50px;
+}
+
+#section_info .section-img:hover {
+    /* transform: rotate(20deg); */
+    transform: scale(80%);
+}
+
+#section_info .section-img:nth-child(5) {
+    animation: giro 5s ease infinite;
+}
+
+#section_info .section-img:nth-child(6) {
+    animation: giro 5s ease infinite;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotateZ(360deg);
+    }
+}
+
 
 
 /* Proyectos realizados */
@@ -276,6 +311,7 @@ nav a {
 .img-card {
     width: 100%;
     height: inherit;
+    
 }
 
 .link {
@@ -362,6 +398,7 @@ nav a {
 #submit:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.112);
+    transform: scale(80%);
 
 }
 
@@ -380,11 +417,11 @@ textarea {
     color: #fff;
 }
 
-.form_mensaje{
+.form_mensaje {
     display: flex;
     color: #fff;
     justify-content: center;
-    border: 1px solid rgb(22, 175, 180) ;
+    border: 1px solid rgb(22, 175, 180);
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.112);
     width: 20%;
@@ -393,9 +430,10 @@ textarea {
     height: 32px;
     align-items: center;
     font-size: 15px;
-    
+
 }
-.none{
+
+.none {
     display: none;
 }
 
@@ -416,10 +454,26 @@ footer {
     margin-bottom: 30px;
 }
 
+footer .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 footer .container P {
     color: #fff;
     text-align: center;
+}
 
+footer .img-footer{
+    width: 40px;
+    height: 40px;
+}
+
+footer .img-footer:hover{
+    transform: scale(80%);
 }
 
 
@@ -462,7 +516,7 @@ footer .container P {
         height: auto;
     }
 
-    
+
 
     nav img {
         width: 100%;
@@ -475,8 +529,9 @@ footer .container P {
     }
 
     .section_hero {
-        padding: 0px;
-        height: 48vh;
+        font-size: 13px;
+        height: 45vh;
+        padding: 10px;
     }
 
 
@@ -515,7 +570,8 @@ footer .container P {
     #submit {
         width: 50%;
     }
-    .form_mensaje{
+
+    .form_mensaje {
         width: 45%;
         text-align: center;
         font-size: 15px;
