@@ -182,6 +182,7 @@ nav a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     height: 48vh;
     justify-content: center;
     color: #fff;
@@ -204,10 +205,23 @@ nav a {
     border: 1px solid rgb(22, 175, 180);
 }
 
-.section_hero button:hover {
+.enlace-hero:hover {
     background-color: rgba(255, 255, 255, 0.112);
     font-weight: bold;
     transform: scale(80%);
+}
+
+.enlace-hero{
+    margin-top: 30px;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0000008f;
+    margin: 10px;
+    border: 1px solid rgb(22, 175, 180);
+    text-decoration: none;
+    width: 100px;
 }
 
 .color-section {
